@@ -10,7 +10,7 @@ class Genre
     Song.new(name, artist, self)
   end
   def songs
-
+    Song.all.select {|s| s.genre == self}
   end
 
 # Class methods
