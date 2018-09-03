@@ -6,4 +6,9 @@ class Patient
     @name = name
     @@all << self
   end
+
+# Class methods
+  def self.all
+    
+  end
 end
