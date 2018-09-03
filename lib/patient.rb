@@ -9,6 +9,6 @@ class Patient
 
 # Class methods
   def self.all
-    
+    @@all
   end
 end
